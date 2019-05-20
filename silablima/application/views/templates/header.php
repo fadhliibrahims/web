@@ -7,12 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Sistem Informasi Lab SI5</title>
   </head>
   <body>
-  <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -22,6 +22,5 @@
         <a class="nav-link" href="<?= base_url(); ?>pages/praktikan">Daftar Praktikan</a>
       </li>
   </div>
+  </div>
 </nav>
-</div>
-    

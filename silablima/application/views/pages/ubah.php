@@ -15,7 +15,7 @@
                     <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama" name="nama" value="<?= $praktikan['nama']; ?>">
                     <small class="form-text text-danger"><?= form_error('nama'); ?></small>
                 </div>
-                <button type="submit" class="btn" name="ubah">Ubah</button>
+                <button type="submit" class="btn btn-primary" name="ubah">Ubah</button>
             </form>
 
             <br>

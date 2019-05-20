@@ -14,7 +14,7 @@
                     <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama" name="nama">
                     <small class="form-text text-danger"><?= form_error('nama'); ?></small>
                 </div>
-                <button type="submit" class="btn" name="tambah">Tambah</button>
+                <button type="submit" class="btn btn-primary" name="tambah">Tambah</button>
             </form>
 
             <br>
