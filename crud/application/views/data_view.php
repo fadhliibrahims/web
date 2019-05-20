@@ -19,10 +19,11 @@
             <td><?= $row['Id_Mhs']; ?></td>
             <td><?= $row['Nama_Mhs']; ?></td>
             <td><?= $row['Kom_Mhs']; ?></td>
-            <td><a href="datamahasiswa/edit_data/<?= $row['Id_Mhs']; ?>">Edit</a></td>
-            <td><a href="datamahasiswa/delete_data/<?= $row['Id_Mhs']; ?>">Delete</a></td>
+            <td><a href="<?= base_url(); ?>DataMahasiswa/edit_data/<?= $row['Id_Mhs']; ?>">Edit</a></td>
+            <td><a href="<?= base_url(); ?>DataMahasiswa/delete_data/<?= $row['Id_Mhs']; ?>">Delete</a></td>
         </tr>
         <?php endforeach ?>
     </table>
+    <a href="<?= base_url(); ?>DataMahasiswa/add_data">Insert</a>
 </body>
 </html>
